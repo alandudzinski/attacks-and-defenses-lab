@@ -63,7 +63,7 @@ Defenders ask:
 - How can we recover?
 
 ## 6. Example Scenario
-The following scenario is an example to better understand an attacker and defender.
+The following scenario is an example to better understand how attacks and defenses work.
 
 ### Scenario
 An attacker tries to brute-force a login page by repeatedly guessing passwords.
@@ -91,10 +91,26 @@ A defender could look for:
 - Login attempts at unusual times
 
 ## 7. Security Controls
+There are three main types of security controls:
+
+| Control Type | Meaning | Example |
+|---|---|---|
+| Preventive | Stops attacks before they succeed | MFA, firewalls, access control |
+| Detective | Finds suspicious activity | Logs, alerts, SIEM |
+| Corrective | Helps recover after an incident | Backups, patching, password resets |
 
 ## 8. Cybersecurity Importance
+Cybersecurity is not just about knowing attacks. It is about understanding how attacks affect systems and how defenders reduce risk.
+
+This project helps connect:
+- CIA Triad
+- Cryptography
+- Common attacks
+- Defensive controls
+- Security monitoring
 
 ## 9. What I Learned
+From this module, I learned that attacks and defenses are heavily intertwined. Every attack targets something, affects confidentiality, integrity, or availability, and should have controls to prevent, detect, or recover from it. The biggest takeaway is that good defenders think like attackers, but act with permission and focus on protection.
 
 ## References
 - TryHackMe. "Attacks and Defenses." TryHackMe, [https://tryhackme.com/](https://tryhackme.com/module/attacks-and-defenses)

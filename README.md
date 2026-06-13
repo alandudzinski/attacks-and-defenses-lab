@@ -19,7 +19,7 @@
 ## 9. What I Learned
 
 ## References
-- TryHackMe. "Introduction to Cyber Security." TryHackMe, [https://tryhackme.com/](https://tryhackme.com/module/attacks-and-defenses)
+- TryHackMe. "Attacks and Defenses." TryHackMe, [https://tryhackme.com/](https://tryhackme.com/module/attacks-and-defenses)
 
 ## Disclaimer
 This project is for educational purposes only. It summarizes concepts learned through TryHackMe and does not include walkthrough answers, flags, or private room solutions.

@@ -44,8 +44,51 @@ The following matrix is also located [HERE](https://github.com/alandudzinski/att
 | Weak passwords | User accounts | Confidentiality | Password policy, MFA | Failed login patterns |
 
 ## 5. Offensive vs Defensive Thinking
+### Attacker Mindset
+Attackers ask:
+- What can I access?
+- What is exposed?
+- What is misconfigured?
+- Can I steal credentials?
+- Can I bypass controls?
+- Can I disrupt the system?
 
-## 6. Example Scenarios
+### Defender Mindset
+Defenders ask:
+- What assets need protection?
+- What attacks are most likely?
+- What controls reduce risk?
+- What logs show suspicious behavior?
+- How quickly can we detect and respond?
+- How can we recover?
+
+## 6. Example Scenario
+The following scenario is an example to better understand an attacker and defender.
+
+### Scenario
+An attacker tries to brute-force a login page by repeatedly guessing passwords.
+
+### CIA Triad Impact
+| CIA Principle | Impact |
+|---|---|
+| Confidentiality | User accounts could be accessed |
+| Integrity | Account data could be changed |
+| Availability | Login system could be overloaded or locked |
+
+### Defenses
+- Require strong passwords
+- Add multi-factor authentication
+- Limit failed login attempts
+- Lock accounts after repeated failures
+- Log failed login attempts
+- Alert on suspicious IP addresses
+
+### Detection
+A defender could look for:
+- Many failed logins from one IP address
+- Many failed logins against one username
+- Logins from unusual locations
+- Login attempts at unusual times
 
 ## 7. Security Controls
 

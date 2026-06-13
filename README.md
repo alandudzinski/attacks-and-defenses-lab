@@ -31,7 +31,7 @@ Common uses:
 | HTTPS | Uses encryption to protect browser-server communication |
 
 ## 4. Attack vs Defense Matrix
-The following is also located [HERE](https://github.com/alandudzinski/attacks-and-defenses-lab/blob/main/attack-defense-matrix.md) for reference.
+The following matrix is also located [HERE](https://github.com/alandudzinski/attacks-and-defenses-lab/blob/main/attack-defense-matrix.md) for reference.
 | Attack | What It Targets | CIA Impact | Defense | Detection |
 |---|---|---|---|---|
 | Phishing | Users and credentials | Confidentiality | Security awareness, MFA, email filtering | Suspicious login alerts |
